@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "jest/*": ["jest/*"]
+    },
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "./src/**/template"
+  ]
+}
